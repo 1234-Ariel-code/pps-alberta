@@ -1,4 +1,4 @@
-# BIST601 Biostatistical Consulting Project
+# Biostatistical Consulting Project
 
 This repository contains the analysis workflow, organized outputs, data files, and report materials for a biostatistical consulting project based on the **Optimal Learning Project**, a four-year Alberta education initiative examining implementation of the Professional Practice Standards.
 
