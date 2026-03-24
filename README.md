@@ -3,7 +3,7 @@
 
 This repository contains the analysis workflow, organized outputs, data files, and report materials for a biostatistical consulting project based on the **Optimal Learning Project**, a four-year Alberta education initiative examining implementation of the Professional Practice Standards.
 
-## Project scope
+### Project scope
 
 The repository is organized around four analytical sections:
 
@@ -14,28 +14,28 @@ The repository is organized around four analytical sections:
 
 These sections follow the staged analysis workflow described in the project documents.
 
-## Research questions covered
+### Research questions covered
 
-### Section 1: Descriptive and exploratory questions
+#### Section 1: Descriptive and exploratory questions
 - Overall levels and distributions of teacher competency implementation across Teacher Quality Standard domains by year
 - Year 4 comparison of implementation and professional learning need across competency domains
 - Correlation structure among Year 4 teacher competency domains
 
-### Section 2: Group comparison questions
+#### Section 2: Group comparison questions
 - Whether competency profiles differ by grade level taught in Year 4
 - Whether competency profiles differ by subject specialization in Year 4
 - Whether competency profiles differ by teaching experience in Year 4
 - Whether implementation advancement differs jointly across the four survey years
 
-### Section 3: Structural relationship questions
+#### Section 3: Structural relationship questions
 - Relationship between perceived competency implementation and corresponding professional learning needs within each TQS domain
 - SEM analyses using latent constructs and domain-specific indicators
 
-### Section 4: Longitudinal context questions
+#### Section 4: Longitudinal context questions
 - Change in professional learning needs over time
 - Whether Year 4 patterns are consistent with trends from earlier years
 
-## Repository structure
+### Repository structure
 
 ```text
 BIST601-biostat-consulting-project/
@@ -58,7 +58,7 @@ BIST601-biostat-consulting-project/
 └── archive/
 ```
 
-## Contents
+### Contents
 
 The contents of the repo is at follow:
 
@@ -68,7 +68,7 @@ The contents of the repo is at follow:
 - Original outputs in section-specific `figures`, `tables`, `text_results`, `logs`, `summary_figures`, and `report_drafts`
 - The main report in `report/final_report.docx`
 
-## Script map
+### Script map
 
 | Section script | Repository script |
 |---|---|
@@ -77,7 +77,7 @@ The contents of the repo is at follow:
 | `section3.R` | `03_section3_sem.R` |
 | `section4.R` | `04_section4_longitudinal.R` |
 
-## Outputs map
+### Outputs map
 
 Each section follows an internal structure:
 
@@ -88,29 +88,29 @@ Each section follows an internal structure:
 - `summary_figures/` for section-level presentation-ready summary figures
 - `report_drafts/` for section-level draft report documents
 
-## Notes
+### Notes
 
 - This repository package was organized to make it user-friendly and easier for reproducibity of the analysis.
 - Temporary system files are `.DS_Store`, `__MACOSX`, `.Rhistory`, `.RData`, and `.Rapp.history`.
 
-## Source project documents
+### Source project documents
 
 The client project context is included in:
 
 - `docs/project_questions.docx`
 - `docs/scientific_background.docx`
 
-## Main report
+### Main report
 
 The final integrated report is located at:
 
 - `report/final_report.docx`
 
-## Reproducibility
+### Reproducibility
 
 This repository is organized so that the analysis can be reproduced from the project root using relative paths. The workflow is divided into four main sections: descriptive exploration, group comparisons, structural equation modeling, and longitudinal interpretation.
 
-### Requirements
+#### Requirements
 
 This project was developed in **R** and is intended to be run in **RStudio** using the included `.Rproj` file.
 
@@ -143,7 +143,7 @@ install.packages(c(
 ))
 ```
 
-### Project setup
+#### Project setup
 
 1. Clone the repository:
 
@@ -158,7 +158,7 @@ cd pps-alberta
 
 4. Run the scripts from the repository root so that all relative paths resolve correctly.
 
-### Recommended execution order
+#### Recommended execution order
 
 Run the scripts in the following order:
 
@@ -180,7 +180,7 @@ Rscript scripts/03_section3_sem.R
 Rscript scripts/04_section4_longitudinal.R
 ```
 
-### Data availability
+#### Data availability
 
 If the repository is shared publicly, some raw or processed data files may not be included because of project restrictions or confidentiality requirements. In that case:
 
@@ -188,7 +188,7 @@ If the repository is shared publicly, some raw or processed data files may not b
 - place any required cleaned files in `data/processed/`
 - use the metadata files in `data/metadata/` to match filenames, variables, and scoring structure
 
-### Expected outputs
+#### Expected outputs
 
 Running the scripts should generate section-specific outputs under:
 
@@ -199,7 +199,7 @@ Running the scripts should generate section-specific outputs under:
 
 These outputs may include figures, summary tables, model results, and logs.
 
-### Notes
+#### Notes
 
 - All scripts should be run from the repository root.
 - Relative paths are preferred throughout the project for portability.
