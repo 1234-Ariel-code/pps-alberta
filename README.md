@@ -104,3 +104,24 @@ The client project context is included in:
 The final integrated report is located at:
 
 - `report/final_report.docx`
+
+## Reproducibility
+
+To run the analysis locally:
+
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/pps-alberta.git
+
+2. Open the R project file in RStudio.
+
+3. Install required R packages.
+
+4. Run scripts in the following order:
+   - scripts/00_setup.R
+   - scripts/00_helpers.R
+   - scripts/01_section1_descriptive.R
+   - scripts/02_section2_group_comparisons.R
+   - scripts/03_section3_sem.R
+   - scripts/04_section4_longitudinal.R
+
+All paths in the project are relative to the repository root.
