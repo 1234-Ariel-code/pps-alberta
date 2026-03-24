@@ -11,7 +11,7 @@ The repository is organized around four analytical sections:
 3. **Structural equation modeling (SEM)**
 4. **Longitudinal context and trend interpretation**
 
-These sections follow the staged analysis workflow described in the project documents and implemented in the original local project folder.
+These sections follow the staged analysis workflow described in the project documents.
 
 ## Research questions covered
 
@@ -57,19 +57,19 @@ BIST601-biostat-consulting-project/
 └── archive/
 ```
 
-## What was preserved from the original local project
+## Contents
 
-The contents of the shared local project were preserved and reorganized, rather than rewritten:
+The contents of the repo is at follow:
 
-- Original data files were moved into `data/raw/`
-- Original project instructions were moved into `docs/`
-- Original R scripts were preserved and renamed for clearer execution order
-- Original outputs were reorganized into section-specific `figures`, `tables`, `text_results`, `logs`, `summary_figures`, and `report_drafts`
-- The main report was moved into `report/final_report.docx`
+- Original data files in `data/raw/`
+- Original project instructions in `docs/`
+- Original R scripts are structured for clearer execution order
+- Original outputs in section-specific `figures`, `tables`, `text_results`, `logs`, `summary_figures`, and `report_drafts`
+- The main report in `report/final_report.docx`
 
 ## Script map
 
-| Original script | Repository script |
+| Section script | Repository script |
 |---|---|
 | `section1.R` | `01_section1_descriptive.R` |
 | `section2.R` | `02_section2_group_comparisons.R` |
@@ -78,7 +78,7 @@ The contents of the shared local project were preserved and reorganized, rather 
 
 ## Outputs map
 
-Each section now follows a cleaner internal structure:
+Each section follows an internal structure:
 
 - `figures/` for PNG figures
 - `tables/` for CSV result tables
@@ -89,13 +89,12 @@ Each section now follows a cleaner internal structure:
 
 ## Notes
 
-- This repository package was reorganized from the original local folder structure to make it easier to upload to GitHub.
-- Temporary system files such as `.DS_Store`, `__MACOSX`, `.Rhistory`, `.RData`, and `.Rapp.history` were not carried forward into the cleaned repository package.
-- The analytical content itself was kept unchanged; only the folder organization and top-level documentation were improved.
+- This repository package was organized to make it user-friendly and easier for reproducibity of the analysis.
+- Temporary system files are `.DS_Store`, `__MACOSX`, `.Rhistory`, `.RData`, and `.Rapp.history`.
 
 ## Source project documents
 
-The original project context is included in:
+The client project context is included in:
 
 - `docs/project_questions.docx`
 - `docs/scientific_background.docx`
