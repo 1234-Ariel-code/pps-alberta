@@ -110,7 +110,7 @@ The final integrated report is located at:
 To run the analysis locally:
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/pps-alberta.git
+   git clone https://github.com/1234-Ariel-code/pps-alberta.git
 
 2. Open the R project file in RStudio.
 
