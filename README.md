@@ -1,4 +1,5 @@
-# Biostatistical Consulting Project
+<img width="1376" height="768" alt="canvas-image-1-1774391213485" src="https://github.com/user-attachments/assets/0e1b98af-2e63-46a0-bbf9-489009177e5c" />
+
 
 This repository contains the analysis workflow, organized outputs, data files, and report materials for a biostatistical consulting project based on the **Optimal Learning Project**, a four-year Alberta education initiative examining implementation of the Professional Practice Standards.
 
