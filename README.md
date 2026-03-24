@@ -107,21 +107,100 @@ The final integrated report is located at:
 
 ## Reproducibility
 
-To run the analysis locally:
+This repository is organized so that the analysis can be reproduced from the project root using relative paths. The workflow is divided into four main sections: descriptive exploration, group comparisons, structural equation modeling, and longitudinal interpretation.
+
+### Requirements
+
+This project was developed in **R** and is intended to be run in **RStudio** using the included `.Rproj` file.
+
+Install the required R packages before running the scripts.
+
+```r
+install.packages(c(
+  "tidyverse",
+  "readxl",
+  "psych",
+  "lavaan",
+  "semPlot",
+  "ggplot2",
+  "dplyr",
+  "tidyr",
+  "stringr",
+  "purrr",
+  "tibble"
+))
+```
+
+Depending on your local setup and the exact script content, you may also need:
+
+```r
+install.packages(c(
+  "here",
+  "janitor",
+  "scales",
+  "patchwork"
+))
+```
+
+### Project setup
 
 1. Clone the repository:
-   git clone https://github.com/1234-Ariel-code/pps-alberta.git
 
-2. Open the R project file in RStudio.
+```bash
+git clone https://github.com/YOUR_USERNAME/pps-alberta.git
+cd pps-alberta
+```
 
-3. Install required R packages.
+2. Open the project in RStudio by clicking the `.Rproj` file.
 
-4. Run scripts in the following order:
-   - scripts/00_setup.R
-   - scripts/00_helpers.R
-   - scripts/01_section1_descriptive.R
-   - scripts/02_section2_group_comparisons.R
-   - scripts/03_section3_sem.R
-   - scripts/04_section4_longitudinal.R
+3. Make sure the required data files are available in the expected folders under `data/`.
 
-All paths in the project are relative to the repository root.
+4. Run the scripts from the repository root so that all relative paths resolve correctly.
+
+### Recommended execution order
+
+Run the scripts in the following order:
+
+```r
+source("scripts/00_setup.R")
+source("scripts/00_helpers.R")
+source("scripts/01_section1_descriptive.R")
+source("scripts/02_section2_group_comparisons.R")
+source("scripts/03_section3_sem.R")
+source("scripts/04_section4_longitudinal.R")
+```
+
+You may also run them individually from the terminal:
+
+```bash
+Rscript scripts/01_section1_descriptive.R
+Rscript scripts/02_section2_group_comparisons.R
+Rscript scripts/03_section3_sem.R
+Rscript scripts/04_section4_longitudinal.R
+```
+
+### Data availability
+
+If the repository is shared publicly, some raw or processed data files may not be included because of project restrictions or confidentiality requirements. In that case:
+
+- place the authorized raw files in `data/raw/`
+- place any required cleaned files in `data/processed/`
+- use the metadata files in `data/metadata/` to match filenames, variables, and scoring structure
+
+### Expected outputs
+
+Running the scripts should generate section-specific outputs under:
+
+- `outputs/section1/`
+- `outputs/section2/`
+- `outputs/section3/`
+- `outputs/section4/`
+
+These outputs may include figures, summary tables, model results, and logs.
+
+### Notes
+
+- All scripts should be run from the repository root.
+- Relative paths are preferred throughout the project for portability.
+- If a script fails because of a missing package, install the package and rerun the script.
+- If a script fails because of a missing file, verify that the required input data are located in the correct `data/` subfolder.
