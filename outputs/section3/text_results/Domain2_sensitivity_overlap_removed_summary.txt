@@ -1,0 +1,144 @@
+lavaan 0.6-21 ended normally after 50 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        46
+
+                                                  Used       Total
+  Number of observations                           730         858
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                57.775      74.050
+  Degrees of freedom                                34          34
+  P-value (Unknown)                                 NA       0.000
+  Scaling correction factor                                  0.896
+  Shift parameter                                            9.543
+    simple second-order correction                                
+
+Model Test Baseline Model:
+
+  Test statistic                             14763.226    8768.889
+  Degrees of freedom                                45          45
+  P-value                                           NA       0.000
+  Scaling correction factor                                  1.687
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.998       0.995
+  Tucker-Lewis Index (TLI)                       0.998       0.994
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.971
+  Robust Tucker-Lewis Index (TLI)                            0.962
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.031       0.040
+  90 Percent confidence interval - lower         0.016       0.028
+  90 Percent confidence interval - upper         0.044       0.053
+  P-value H_0: RMSEA <= 0.050                    0.992       0.898
+  P-value H_0: RMSEA >= 0.080                    0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.065
+  90 Percent confidence interval - lower                     0.050
+  90 Percent confidence interval - upper                     0.081
+  P-value H_0: Robust RMSEA <= 0.050                         0.048
+  P-value H_0: Robust RMSEA >= 0.080                         0.062
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.035       0.035
+
+Parameter Estimates:
+
+  Parameterization                               Theta
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Comp2 =~                                                              
+    Q84               0.775    0.063   12.367    0.000    0.775    0.613
+    Q85               1.029    0.081   12.712    0.000    1.029    0.717
+    Q86               0.867    0.068   12.744    0.000    0.867    0.655
+    Q87               0.825    0.068   12.060    0.000    0.825    0.636
+    Q88               0.702    0.059   11.889    0.000    0.702    0.574
+  Need2 =~                                                              
+    Q109              1.261    0.074   17.030    0.000    1.288    0.790
+    Q110              2.429    0.210   11.582    0.000    2.481    0.927
+    Q113              1.899    0.118   16.063    0.000    1.939    0.889
+    Q114              1.471    0.083   17.679    0.000    1.502    0.832
+    Q116              1.096    0.067   16.408    0.000    1.119    0.746
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Need2 ~                                                               
+    Comp2            -0.208    0.042   -4.942    0.000   -0.203   -0.203
+
+Thresholds:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    Q84|t1           -3.219    0.213  -15.121    0.000   -3.219   -2.544
+    Q84|t2           -2.518    0.130  -19.318    0.000   -2.518   -1.990
+    Q84|t3           -1.028    0.069  -14.857    0.000   -1.028   -0.813
+    Q84|t4            0.609    0.062    9.878    0.000    0.609    0.482
+    Q85|t1           -3.985    0.296  -13.442    0.000   -3.985   -2.777
+    Q85|t2           -3.223    0.193  -16.691    0.000   -3.223   -2.247
+    Q85|t3           -1.534    0.097  -15.742    0.000   -1.534   -1.069
+    Q85|t4            0.587    0.068    8.609    0.000    0.587    0.409
+    Q86|t1           -2.704    0.142  -19.028    0.000   -2.704   -2.043
+    Q86|t2           -1.996    0.104  -19.114    0.000   -1.996   -1.508
+    Q86|t3           -0.597    0.066   -9.048    0.000   -0.597   -0.451
+    Q86|t4            0.930    0.068   13.595    0.000    0.930    0.703
+    Q87|t1           -2.971    0.177  -16.809    0.000   -2.971   -2.292
+    Q87|t2           -1.735    0.091  -18.991    0.000   -1.735   -1.338
+    Q87|t3           -0.459    0.063   -7.273    0.000   -0.459   -0.354
+    Q87|t4            1.005    0.070   14.263    0.000    1.005    0.775
+    Q88|t1           -2.931    0.184  -15.970    0.000   -2.931   -2.399
+    Q88|t2           -1.842    0.092  -19.947    0.000   -1.842   -1.508
+    Q88|t3           -0.275    0.058   -4.778    0.000   -0.275   -0.225
+    Q88|t4            1.134    0.068   16.663    0.000    1.134    0.928
+    Q109|t1          -1.020    0.082  -12.376    0.000   -1.020   -0.626
+    Q109|t2           0.785    0.079    9.966    0.000    0.785    0.482
+    Q109|t3           2.142    0.113   18.875    0.000    2.142    1.313
+    Q110|t1          -1.445    0.147   -9.851    0.000   -1.445   -0.540
+    Q110|t2           1.607    0.171    9.387    0.000    1.607    0.601
+    Q110|t3           3.428    0.268   12.802    0.000    3.428    1.282
+    Q113|t1          -1.338    0.110  -12.159    0.000   -1.338   -0.613
+    Q113|t2           1.320    0.118   11.169    0.000    1.320    0.605
+    Q113|t3           3.314    0.193   17.180    0.000    3.314    1.519
+    Q114|t1          -1.703    0.103  -16.471    0.000   -1.703   -0.944
+    Q114|t2           0.355    0.085    4.163    0.000    0.355    0.197
+    Q114|t3           2.493    0.121   20.601    0.000    2.493    1.382
+    Q116|t1          -1.632    0.090  -18.069    0.000   -1.632   -1.088
+    Q116|t2           0.124    0.070    1.773    0.076    0.124    0.083
+    Q116|t3           1.912    0.100   19.209    0.000    1.912    1.274
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q84               1.000                               1.000    0.624
+   .Q85               1.000                               1.000    0.486
+   .Q86               1.000                               1.000    0.571
+   .Q87               1.000                               1.000    0.595
+   .Q88               1.000                               1.000    0.670
+   .Q109              1.000                               1.000    0.376
+   .Q110              1.000                               1.000    0.140
+   .Q113              1.000                               1.000    0.210
+   .Q114              1.000                               1.000    0.307
+   .Q116              1.000                               1.000    0.444
+    Comp2             1.000                               1.000    1.000
+   .Need2             1.000                               0.959    0.959
+
+Scales y*:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    Q84               0.790                               0.790    1.000
+    Q85               0.697                               0.697    1.000
+    Q86               0.755                               0.755    1.000
+    Q87               0.771                               0.771    1.000
+    Q88               0.819                               0.819    1.000
+    Q109              0.613                               0.613    1.000
+    Q110              0.374                               0.374    1.000
+    Q113              0.458                               0.458    1.000
+    Q114              0.554                               0.554    1.000
+    Q116              0.666                               0.666    1.000
+

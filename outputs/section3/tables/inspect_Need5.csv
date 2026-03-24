@@ -1,0 +1,5 @@
+Item,Present,N_nonmissing,N_missing,Unique_values
+Q120,TRUE,735,554,"1, 2, 3, 4"
+Q98,FALSE,NA,NA,NA
+Q123,TRUE,734,555,"1, 2, 3, 4"
+Q124,TRUE,733,556,"1, 2, 3, 4"

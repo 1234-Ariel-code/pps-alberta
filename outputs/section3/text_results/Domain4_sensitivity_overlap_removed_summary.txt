@@ -1,0 +1,122 @@
+lavaan 0.6-21 ended normally after 56 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        30
+
+                                                  Used       Total
+  Number of observations                           727         857
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                50.134      73.123
+  Degrees of freedom                                13          13
+  P-value (Unknown)                                 NA       0.000
+  Scaling correction factor                                  0.710
+  Shift parameter                                            2.560
+    simple second-order correction                                
+
+Model Test Baseline Model:
+
+  Test statistic                              6864.413    4457.649
+  Degrees of freedom                                21          21
+  P-value                                           NA       0.000
+  Scaling correction factor                                  1.542
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.995       0.986
+  Tucker-Lewis Index (TLI)                       0.991       0.978
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.945
+  Robust Tucker-Lewis Index (TLI)                            0.911
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.063       0.080
+  90 Percent confidence interval - lower         0.045       0.063
+  90 Percent confidence interval - upper         0.082       0.098
+  P-value H_0: RMSEA <= 0.050                    0.114       0.003
+  P-value H_0: RMSEA >= 0.080                    0.067       0.517
+                                                                  
+  Robust RMSEA                                               0.119
+  90 Percent confidence interval - lower                     0.095
+  90 Percent confidence interval - upper                     0.144
+  P-value H_0: Robust RMSEA <= 0.050                         0.000
+  P-value H_0: Robust RMSEA >= 0.080                         0.996
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.041       0.041
+
+Parameter Estimates:
+
+  Parameterization                               Theta
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Comp4 =~                                                              
+    Q91               1.020    0.082   12.434    0.000    1.020    0.714
+    Q92               1.432    0.154    9.276    0.000    1.432    0.820
+    Q93               1.073    0.091   11.837    0.000    1.073    0.731
+  Need4 =~                                                              
+    Q117              1.123    0.079   14.293    0.000    1.160    0.757
+    Q118              1.885    0.139   13.532    0.000    1.947    0.890
+    Q121              1.301    0.084   15.506    0.000    1.344    0.802
+    Q119              1.385    0.091   15.188    0.000    1.431    0.820
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Need4 ~                                                               
+    Comp4            -0.260    0.048   -5.414    0.000   -0.251   -0.251
+
+Thresholds:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    Q91|t1           -3.966    0.321  -12.365    0.000   -3.966   -2.776
+    Q91|t2           -2.915    0.175  -16.651    0.000   -2.915   -2.041
+    Q91|t3           -1.292    0.090  -14.340    0.000   -1.292   -0.904
+    Q91|t4            0.705    0.071    9.989    0.000    0.705    0.493
+    Q92|t1           -3.850    0.338  -11.401    0.000   -3.850   -2.204
+    Q92|t2           -1.682    0.152  -11.072    0.000   -1.682   -0.963
+    Q92|t3            0.931    0.101    9.208    0.000    0.931    0.533
+    Q93|t1           -3.613    0.259  -13.974    0.000   -3.613   -2.464
+    Q93|t2           -1.831    0.112  -16.286    0.000   -1.831   -1.249
+    Q93|t3            0.386    0.069    5.610    0.000    0.386    0.263
+    Q117|t1          -0.420    0.071   -5.937    0.000   -0.420   -0.274
+    Q117|t2           1.353    0.089   15.183    0.000    1.353    0.884
+    Q117|t3           2.506    0.131   19.094    0.000    2.506    1.636
+    Q118|t1          -2.181    0.156  -13.951    0.000   -2.181   -0.996
+    Q118|t2           0.200    0.103    1.945    0.052    0.200    0.091
+    Q118|t3           2.244    0.148   15.165    0.000    2.244    1.025
+    Q121|t1          -2.042    0.113  -18.008    0.000   -2.042   -1.219
+    Q121|t2          -0.382    0.080   -4.797    0.000   -0.382   -0.228
+    Q121|t3           1.128    0.087   12.921    0.000    1.128    0.673
+    Q119|t1          -1.552    0.100  -15.510    0.000   -1.552   -0.889
+    Q119|t2           0.504    0.084    5.992    0.000    0.504    0.288
+    Q119|t3           2.472    0.135   18.319    0.000    2.472    1.416
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q91               1.000                               1.000    0.490
+   .Q92               1.000                               1.000    0.328
+   .Q93               1.000                               1.000    0.465
+   .Q117              1.000                               1.000    0.426
+   .Q118              1.000                               1.000    0.209
+   .Q121              1.000                               1.000    0.356
+   .Q119              1.000                               1.000    0.328
+    Comp4             1.000                               1.000    1.000
+   .Need4             1.000                               0.937    0.937
+
+Scales y*:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    Q91               0.700                               0.700    1.000
+    Q92               0.572                               0.572    1.000
+    Q93               0.682                               0.682    1.000
+    Q117              0.653                               0.653    1.000
+    Q118              0.457                               0.457    1.000
+    Q121              0.597                               0.597    1.000
+    Q119              0.573                               0.573    1.000
+

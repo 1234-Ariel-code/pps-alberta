@@ -1,0 +1,117 @@
+lavaan 0.6-21 ended normally after 24 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        31
+
+  Number of observations                           858
+  Number of missing patterns                        10
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                               522.157     447.347
+  Degrees of freedom                                34          34
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  1.167
+    Yuan-Bentler correction (Mplus variant)                       
+
+Model Test Baseline Model:
+
+  Test statistic                              3071.044    2554.822
+  Degrees of freedom                                45          45
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.202
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.839       0.835
+  Tucker-Lewis Index (TLI)                       0.786       0.782
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.835
+  Robust Tucker-Lewis Index (TLI)                            0.782
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -9080.904   -9080.904
+  Scaling correction factor                                  1.068
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -8819.825   -8819.825
+  Scaling correction factor                                  1.120
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                               18223.808   18223.808
+  Bayesian (BIC)                             18371.201   18371.201
+  Sample-size adjusted Bayesian (SABIC)      18272.753   18272.753
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.129       0.119
+  90 Percent confidence interval - lower         0.120       0.110
+  90 Percent confidence interval - upper         0.139       0.128
+  P-value H_0: RMSEA <= 0.050                    0.000       0.000
+  P-value H_0: RMSEA >= 0.080                    1.000       1.000
+                                                                  
+  Robust RMSEA                                               0.138
+  90 Percent confidence interval - lower                     0.127
+  90 Percent confidence interval - upper                     0.149
+  P-value H_0: Robust RMSEA <= 0.050                         0.000
+  P-value H_0: Robust RMSEA >= 0.080                         1.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.068       0.068
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Comp1 =~                                                              
+    Q5                0.562    0.033   16.910    0.000    0.562    0.675
+    Q4                0.673    0.040   16.846    0.000    0.673    0.608
+    Q81               0.323    0.025   12.756    0.000    0.323    0.530
+    Q82               0.713    0.037   19.322    0.000    0.713    0.750
+    Q83               0.525    0.039   13.618    0.000    0.525    0.556
+  Need1 =~                                                              
+    Q44               0.859    0.032   26.671    0.000    0.862    0.889
+    Q105              0.494    0.030   16.658    0.000    0.495    0.581
+    Q106              0.905    0.034   26.689    0.000    0.908    0.899
+    Q107              0.658    0.027   24.137    0.000    0.660    0.728
+    Q108              0.360    0.031   11.546    0.000    0.361    0.438
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Need1 ~                                                               
+    Comp1            -0.078    0.048   -1.630    0.103   -0.078   -0.078
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q5               -0.000    0.028   -0.011    0.991   -0.000   -0.000
+   .Q4                0.001    0.038    0.015    0.988    0.001    0.001
+   .Q81              -0.000    0.021   -0.000    1.000   -0.000   -0.000
+   .Q82              -0.001    0.032   -0.030    0.976   -0.001   -0.001
+   .Q83              -0.000    0.032   -0.000    1.000   -0.000   -0.000
+   .Q44              -0.002    0.036   -0.066    0.948   -0.002   -0.002
+   .Q105             -0.001    0.032   -0.027    0.979   -0.001   -0.001
+   .Q106             -0.002    0.037   -0.053    0.958   -0.002   -0.002
+   .Q107              0.001    0.033    0.024    0.981    0.001    0.001
+   .Q108              0.000    0.030    0.014    0.989    0.000    0.001
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q5                0.378    0.030   12.559    0.000    0.378    0.545
+   .Q4                0.772    0.051   15.225    0.000    0.772    0.630
+   .Q81               0.268    0.015   17.990    0.000    0.268    0.719
+   .Q82               0.395    0.043    9.105    0.000    0.395    0.437
+   .Q83               0.616    0.040   15.348    0.000    0.616    0.691
+   .Q44               0.196    0.021    9.143    0.000    0.196    0.209
+   .Q105              0.482    0.027   18.123    0.000    0.482    0.663
+   .Q106              0.196    0.023    8.503    0.000    0.196    0.192
+   .Q107              0.386    0.023   16.915    0.000    0.386    0.470
+   .Q108              0.547    0.028   19.276    0.000    0.547    0.808
+    Comp1             1.000                               1.000    1.000
+   .Need1             1.000                               0.994    0.994
+

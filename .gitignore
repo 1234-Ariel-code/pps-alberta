@@ -1,0 +1,10 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+__MACOSX/
+*.tmp
+
+# keep generated outputs, but ignore ad hoc local logs if new ones are created
+archive/local_versions_not_for_release/

@@ -1,0 +1,3 @@
+           Df   Wilks approx F num Df den Df Pr(>F)
+Q59         3 0.98371  0.65256     18 2017.2 0.8595
+Residuals 718                                      

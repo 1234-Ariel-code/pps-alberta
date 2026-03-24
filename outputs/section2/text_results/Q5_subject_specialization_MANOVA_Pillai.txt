@@ -1,0 +1,3 @@
+           Df   Pillai approx F num Df den Df Pr(>F)
+Q59         3 0.016361  0.65344     18   2145 0.8587
+Residuals 718                                       

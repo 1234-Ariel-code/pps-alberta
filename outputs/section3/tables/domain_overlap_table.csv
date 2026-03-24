@@ -1,0 +1,7 @@
+Domain,Comp,Need,OverlapItems,NOverlap
+Domain1,Comp1,Need1,,0
+Domain2,Comp2,Need2,,0
+Domain3,Comp3,Need3,,0
+Domain4,Comp4,Need4,Q95,1
+Domain5,Comp5,Need5,Q98,1
+Domain6,Comp6,Need6,,0

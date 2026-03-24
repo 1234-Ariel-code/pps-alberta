@@ -1,0 +1,7 @@
+Domain,OverlapRemoved,CompItemsUsed,NeedItemsUsed,NCompUsed,NNeedUsed
+Domain1,,"Q5, Q4, Q81, Q82, Q83","Q44, Q105, Q106, Q107, Q108",5,5
+Domain2,,"Q84, Q85, Q86, Q87, Q88","Q109, Q110, Q113, Q114, Q116",5,5
+Domain3,,"Q89, Q90","Q111, Q112, Q115",2,3
+Domain4,Q95,"Q91, Q92, Q93","Q117, Q118, Q121, Q119",3,4
+Domain5,Q98,"Q100, Q101","Q120, Q123, Q124",2,3
+Domain6,,"Q104, Q102, Q103",Q122,3,1

@@ -1,0 +1,108 @@
+lavaan 0.6-21 ended normally after 23 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        22
+
+  Number of observations                           857
+  Number of missing patterns                         7
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                84.165      81.992
+  Degrees of freedom                                13          13
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  1.027
+    Yuan-Bentler correction (Mplus variant)                       
+
+Model Test Baseline Model:
+
+  Test statistic                              1796.096    1557.390
+  Degrees of freedom                                21          21
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.153
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.960       0.955
+  Tucker-Lewis Index (TLI)                       0.935       0.927
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.958
+  Robust Tucker-Lewis Index (TLI)                            0.933
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -5723.682   -5723.682
+  Scaling correction factor                                  1.080
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -5681.600   -5681.600
+  Scaling correction factor                                  1.060
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                               11491.365   11491.365
+  Bayesian (BIC)                             11595.940   11595.940
+  Sample-size adjusted Bayesian (SABIC)      11526.074   11526.074
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.080       0.079
+  90 Percent confidence interval - lower         0.064       0.063
+  90 Percent confidence interval - upper         0.097       0.095
+  P-value H_0: RMSEA <= 0.050                    0.001       0.002
+  P-value H_0: RMSEA >= 0.080                    0.519       0.469
+                                                                  
+  Robust RMSEA                                               0.086
+  90 Percent confidence interval - lower                     0.069
+  90 Percent confidence interval - upper                     0.105
+  P-value H_0: Robust RMSEA <= 0.050                         0.000
+  P-value H_0: Robust RMSEA >= 0.080                         0.737
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.032       0.032
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Comp4 =~                                                              
+    Q91               0.468    0.028   16.679    0.000    0.468    0.624
+    Q92               0.545    0.028   19.539    0.000    0.545    0.783
+    Q93               0.434    0.025   17.155    0.000    0.434    0.650
+  Need4 =~                                                              
+    Q117              0.541    0.034   15.708    0.000    0.555    0.659
+    Q118              0.774    0.028   27.311    0.000    0.794    0.848
+    Q121              0.704    0.029   24.135    0.000    0.722    0.752
+    Q119              0.637    0.031   20.358    0.000    0.653    0.761
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Need4 ~                                                               
+    Comp4            -0.230    0.051   -4.553    0.000   -0.224   -0.224
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q91               0.000    0.026    0.009    0.993    0.000    0.000
+   .Q92              -0.001    0.024   -0.038    0.970   -0.001   -0.001
+   .Q93               0.000    0.023    0.000    1.000    0.000    0.000
+   .Q117              0.004    0.031    0.119    0.906    0.004    0.004
+   .Q118              0.002    0.035    0.062    0.950    0.002    0.002
+   .Q121              0.001    0.035    0.016    0.987    0.001    0.001
+   .Q119              0.001    0.032    0.016    0.987    0.001    0.001
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q91               0.342    0.031   10.909    0.000    0.342    0.610
+   .Q92               0.188    0.024    7.690    0.000    0.188    0.387
+   .Q93               0.258    0.020   13.051    0.000    0.258    0.577
+   .Q117              0.402    0.027   14.721    0.000    0.402    0.566
+   .Q118              0.247    0.028    8.785    0.000    0.247    0.282
+   .Q121              0.400    0.034   11.944    0.000    0.400    0.434
+   .Q119              0.310    0.028   11.170    0.000    0.310    0.421
+    Comp4             1.000                               1.000    1.000
+   .Need4             1.000                               0.950    0.950
+
