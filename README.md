@@ -38,7 +38,7 @@ These sections follow the staged analysis workflow described in the project docu
 ### Repository structure
 
 ```text
-BIST601-biostat-consulting-project/
+pps-alberta/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
