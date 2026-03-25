@@ -182,7 +182,7 @@ Rscript scripts/04_section4_longitudinal.R
 
 #### Data availability
 
-If the repository is shared publicly, some raw or processed data files may not be included because of project restrictions or confidentiality requirements. In that case:
+Some raw or processed data files may not be included because of project restrictions or confidentiality requirements. In that case:
 
 - place the authorized raw files in `data/raw/`
 - place any required cleaned files in `data/processed/`
