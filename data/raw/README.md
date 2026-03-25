@@ -1,3 +1,3 @@
 # Raw data
 
-This folder contains the original project data files exactly as provided in the local project bundle.
+This folder contains the project data files only accessible upon request.
