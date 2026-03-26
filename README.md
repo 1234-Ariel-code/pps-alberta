@@ -104,7 +104,7 @@ The client project context is included in:
 
 The final integrated report is located at:
 
-- `report/final_report.docx`
+- `report/pps_alberta_report.pdf`
 
 ### Reproducibility
 
