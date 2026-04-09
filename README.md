@@ -54,8 +54,7 @@ pps-alberta/
 │   ├── section2/
 │   ├── section3/
 │   └── section4/
-├── report/
-└── archive/
+└── report/
 ```
 
 ### Contents
