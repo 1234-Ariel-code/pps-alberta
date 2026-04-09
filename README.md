@@ -65,7 +65,7 @@ The contents of the repo is at follow:
 - Original project instructions in `docs/`
 - Original R scripts are structured for clearer execution order
 - Original outputs in section-specific `figures`, `tables`, `text_results`, `logs`, `summary_figures`, and `report_drafts`
-- The main report in `report/final_report.docx`
+- The main report in `report/pps_alberta_report.pdf`
 
 ### Script map
 
