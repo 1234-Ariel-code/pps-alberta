@@ -12,7 +12,7 @@ The repository is organized around four analytical sections:
 3. **Structural equation modeling (SEM)**
 4. **Longitudinal context and trend interpretation**
 
-These sections follow the staged analysis workflow described in the project documents.
+These sections follow the staged analysis workflow described in the project documents in `docs/`.
 
 ### Research questions covered
 
